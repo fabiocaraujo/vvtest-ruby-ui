@@ -1,4 +1,4 @@
-class PesquisaPage < SitePrism::Page
+class PesquisaPage < SitePrism::Page 
     set_url '?page_id=2'
     
     element :menu_pesquisa, '.menu-item-226 a'

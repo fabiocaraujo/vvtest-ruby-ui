@@ -1,4 +1,4 @@
-Dado('que eu acesse a página da VV Test') do
+Dado('que eu acesse a página da VV Test') do 
     @pesq_page = PesquisaPage.new
     @pesq_page.load
   end

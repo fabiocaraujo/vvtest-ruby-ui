@@ -1,1 +1,1 @@
-default: --no-source --color --format pretty --publish 
+default: --no-source --color --format pretty --publish
