@@ -16,7 +16,7 @@ on:
 jobs:
   test:
 
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
@@ -28,8 +28,8 @@ jobs:
       with:
         ruby-version: 2.5
     - name: Install dependencies
-      run: 
-        gem install bundler
-        bundle install
+      run: gem install bundler
+    - name: Install package
+      run: bundle install
     - name: Run tests
       run: bundle exec rake
