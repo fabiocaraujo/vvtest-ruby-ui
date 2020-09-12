@@ -30,7 +30,7 @@ jobs:
     - name: Install dependencies
       run: gem install bundler
     - name: Install package
-      run: bundle install
+      run: bundle install --force
     - name: Run tests
     # run: bundle exec rake
       run: cucumber
