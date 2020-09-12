@@ -32,4 +32,4 @@ jobs:
     - name: Install package
       run: bundle install
     - name: Run tests
-      run: bundle exec rake
+      run: cucumber
