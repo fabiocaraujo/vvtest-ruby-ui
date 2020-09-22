@@ -1,2 +1,2 @@
 # vvtest-ruby-ui 
-demo
+demo vvtest
